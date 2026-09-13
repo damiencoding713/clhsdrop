@@ -1,7 +1,12 @@
+let lastTime = '';
+
 function showTime() {
-	document.getElementById('currentTime').innerHTML = new Date().toUTCString();
+	const currentTime = new Date().toUTCString();
+	if (currentTime !== lastTime) {
+		lastTime = currentTime;
+		document.getElementById('currentTime').innerHTML = currentTime;
+	}
 }
+
 showTime();
-setInterval(function () {
-	showTime();
-}, 1000);
+setInterval(showTime, 1000);
