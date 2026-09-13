@@ -1,0 +1,66 @@
+body {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 2001;
+      margin: 0;
+      background: linear-gradient(180deg, #fd8383 0%, #ce234d 100%);
+      background-repeat: no-repeat;
+      color: #000000;
+      text-align: center;/* Rectangle 1 */
+      
+    }
+
+    header {
+      height: 30vh;
+      
+      border-bottom: 1px solid #fffcfc;
+      background: rgba(255, 255, 255, 0.6);
+    }
+
+
+
+
+    main {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+
+      
+    }
+
+    article {
+      background: white;
+      
+      margin: 15px 0;
+      border: 1px solid #ddd;
+
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    small {
+      color: #000000;
+    }
+
+    button {
+      
+
+      width: 100%;
+      height: 7vh; 
+
+
+      background: rgba(255, 255, 255, 0.4);
+
+      font-family: 'Inter';
+      font-size: 3vh;
+
+      border: none;
+      text-decoration: none;
+    }
+
+    h3 {
+      font-size: 4vh;
+    }
+
+    p {
+      font-size: 2vh;
+    }

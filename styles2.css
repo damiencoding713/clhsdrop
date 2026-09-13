@@ -1,0 +1,46 @@
+body {
+      font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+      margin: 0;
+      background: linear-gradient(180deg, #fd8383 0%, #ce234d 100%);
+      background-repeat: no-repeat;
+      color: #222;
+      text-align: center;/* Rectangle 1 */
+      
+    }
+
+    header {
+      background: rgb(255, 255, 255);
+      padding: 20px;
+      border-bottom: 1px solid #fffcfc;
+      
+    }
+
+    nav a {
+      margin: 10px;
+      color: #333;
+      text-decoration: none;
+      
+    }
+
+    main {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+
+      
+    }
+
+    article {
+      background: rgb(255, 255, 255);
+      padding: 20px;
+      margin: 15px 0;
+      border: 1px solid #ddd;
+
+      
+    }
+
+    small {
+      color: #888;
+    }
